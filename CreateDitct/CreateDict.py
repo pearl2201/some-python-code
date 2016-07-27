@@ -1,4 +1,4 @@
-
+## use regex to get all word has 7 character from a dictionary
 import sys
 import re
 import codecs

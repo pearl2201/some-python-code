@@ -1,3 +1,9 @@
+##I have a  map 3x3, from any point, you can only go to up/down/left/right point. 
+##[***]
+##[***]
+##[***]
+## i want to create a path contain 7 point from this map :D 
+
 import random
 def main():
     board = [[0 for i in range(0,9)] for i in range(0,9)]
