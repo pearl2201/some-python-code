@@ -10,9 +10,9 @@ def main():
     s = ""
     nDict = set()
     for line in oriDict:
-        m = re.findall("@[a-zA-Z]{7} ",line)
+        m = re.findall("@[a-zA-Z]{3,12} ",line)
         for match in m:
-            word = match[1:8].upper()
+            word = match[1:len(match)-1].upper()
             print (word)
             nDict.add(word)
     m = list(nDict)
